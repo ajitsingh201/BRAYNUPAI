@@ -17,6 +17,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
     <link
         href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
         rel="stylesheet">
@@ -33,6 +34,7 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -54,39 +56,42 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <p class="m-0 fw-bold" style="font-size: 25px;"><img src="img/Logo.png" alt="" height="60px"><span
-                    style="color: #e61a39;"></span></p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow sticky-top py-1">
+    <div class="container-fluid px-4 px-lg-5">
+        <!-- Logo -->
+        <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <img src="img/Logo.png" alt="BraynupAI" height="60">
+            
         </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+
+        <!-- Toggler for mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="courses.html" class="nav-item nav-link">Courses</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu fade-down m-0">
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
 
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
-                <a href="login.html" class="nav-item nav-link"><i class="fa fa-user"></i></a>
-                <a href="#" class="nav-item nav-link">
-
-                <div id="google_translate_element">
-                </div>
-
-
-                </a>
-            </div>
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="placements.html">Placements</a></li>
+                <li class="nav-item"><a class="nav-link" href="hire.html">Hire From Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="corporate.html">Corporate</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">More</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
         </div>
-    </nav>
+
+        <!-- Right Side: Phone + WhatsApp -->
+        <div class=" btn d-flex align-items-center" style="width: 200px;">
+    <a href="https://wa.me/8929656296" target="_blank"
+       style="display: inline-block; background-color: color: white; border: none; border-radius: 50px; padding: 8px 20px; text-align: center; text-decoration: none; font-weight: 500; width: 100%;">
+        WhatsApp Us
+    </a>
+</div>
+    </div>
+</nav>
+
     <!-- Navbar End -->
 
 
@@ -94,7 +99,7 @@
     <div class="container-fluid p-0 mb-4">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <img class="img-fluid" src="img/Image1.png" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(24, 29, 56, .7);">
                     <div class="container">
@@ -113,7 +118,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <img class="img-fluid" src="img/Image1.png" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(24, 29, 56, .7);">
                     <div class="container">
@@ -133,7 +138,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <img class="img-fluid" src="img/Image1.png" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(24, 29, 56, .7);">
                     <div class="container">
@@ -217,7 +222,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt=""
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/AI Image.jpg" alt=""
                             style="object-fit: cover;">
                     </div>
                 </div>
@@ -950,6 +955,10 @@
 
     <!--our hiring partner start-->
   <!-- Swiper Container -->
+   <div class="text-center pt-5">
+                <h1 class=" bg-white text-center px-3" style="color: #fb873f;">Success stories</h1>
+                <p class="mb-5">Can Secret Coder courses help your career? Our learners tell us how.</p>
+            </div>
 <div class="swiper category-swiper">
   <div class="swiper-wrapper">
 
@@ -1015,56 +1024,128 @@
     <!--our hiring partner end-->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-black text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-top: 1px solid white;">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <p><a class="text-light" href="about.html">About Us</a></p>
-                    <p><a class="text-light" href="contact.html">Contact Us</a></p>
-                    <p><a class="text-light" href="">Privacy Policy</a></p>
-                    <p><a class="text-light" href="">Terms & Condition</a></p>
-                    <p><a class="text-light" href="">FAQs & Help</a></p>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Electronics City, Bengaluru, Karnataka 560029</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 89296 56296</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@braynupai.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
+   <footer class="bg-black text-light pt-5 pb-4" style="font-family: 'Segoe UI', sans-serif;">
+  <div class="container">
+    <div class="row g-4">
+      <!-- About -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="text-white mb-3">About</h5>
+        <p>Noida's Best graphic design, UI/UX designing, Web Designing, Web Development, Digital marketing institute.</p>
+        <p>Noida's Best graphic design, UI/UX designing, Web Designing, Web Development, Digital marketing institute.</p>
+        
+      </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <h4 class="text-white mb-3">Subscribe to our Newsletter</h4>
-                    <p>Subscribe now and join our growing community of learners committed to lifelong education! </p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <form action="#">
-                            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email"
-                                placeholder="Your email" required>
-                            <button type="submit"
-                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><a
-                                    href="mailto:keertidvcorai@gmail.com">Subscribe</a></button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="index.html">BraynupAi</a>, All Right Reserved.
+      <!-- Popular Courses -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="text-white mb-3">Popular Courses</h5>
+        <ul class="list-unstyled">
+          <li>Graphic Designing Course In Noida</li>
+          <li>UI/UX Designing Course In Noida</li>
+          <li>UI/UX Development Course In Noida</li>
+          <li>Web Designing Course In Noida</li>
+          <li>Web Development Course In Noida</li>
+          <li>Digital Marketing Course In Noida</li>
+          <li>Corporate Training Course In Noida</li>
+        </ul>
+      </div>
 
-                    </div>
-                </div>
-            </div>
-        </div>
+      <!-- Hire From Us -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="text-white mb-3">Hire From Us</h5>
+        <ul class="list-unstyled">
+          <li>🖌️ Hire Graphic Designers</li>
+          <li>🖊️ Hire UI/UX Designers</li>
+          <li>📂 Hire UI/UX Developer</li>
+          <li>🏃 Hire Web Designers</li>
+          <li>💻 Hire Web Developers</li>
+          <li>📢 Hire Digital Marketer</li>
+          <li>🎓 Hire Interns</li>
+          <li>👤 Hire Experienced Candidates</li>
+        </ul>
+      </div>
+
+      <!-- Reach Out To Us -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="text-white mb-3">Reach Out To Us</h5>
+        <ul class="list-unstyled">
+          <li>🕘 Mon - Friday: 10.30 am – 9.00 pm</li>
+          <li>🕘 Sat – Sunday: 11.30 am – 6.00 pm</li>
+          <li>📞 Noida Branch: +91 7838461570</li>
+          <li>📞 Laxmi Nagar: +91 8368277108</li>
+          <li>✉️ info@hexacodeacademy.com</li>
+           <div class="d-flex pt-2 gap-2">
+  <a class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center" 
+     href="#" style="width: 40px; height: 40px;">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center" 
+     href="#" style="width: 40px; height: 40px;">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+  <a class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center" 
+     href="#" style="width: 40px; height: 40px;">
+    <i class="fab fa-youtube"></i>
+  </a>
+  <a class="btn btn-outline-light rounded-circle d-flex align-items-center justify-content-center" 
+     href="#" style="width: 40px; height: 40px;">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+</div>
+
+        </ul>
+      </div>
     </div>
+
+    <!-- Footer Base (Keywords) -->
+    <div class="row pt-4 mt-4 border-top border-secondary">
+      <div class="col-12">
+        <p class="small mb-0 text-light text-align-justify">
+          Graphic Design Course In Noida |
+          Graphic Design Course In Delhi |
+          Graphic Design Course In Laxmi Nagar |
+          UI UX Design Course In Noida |
+          Web Design Course In Noida |
+          Digital Marketing Course In Noida |
+          Web Development Course In Noida |
+          Hire Graphic Designers |
+          Hire UI Designers |
+          Hire Web Developers |
+          Hire For Digital Marketing |
+          Hire UI UX Designer |
+          Hire Mern Stack Developer |
+          Hire Freshers |
+          Hire Experienced Candidate |
+          Refund Policy | Graphic Design Course In Noida |
+          Graphic Design Course In Delhi |
+          Graphic Design Course In Laxmi Nagar |
+          UI UX Design Course In Noida |
+          Web Design Course In Noida |
+          Digital Marketing Course In Noida |
+          Web Development Course In Noida |
+          Hire Graphic Designers |
+          Hire UI Designers |
+          Hire Web Developers |
+          Hire For Digital Marketing |
+          Hire UI UX Designer |
+          Hire Mern Stack Developer |
+          Hire Freshers |
+          Hire Experienced Candidate |
+          Refund Policy
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Footer Base (Keywords) -->
+  <!-- <div style="border-top: 1px solid #2c3e50; margin-top: 40px; padding-top: 20px; padding-left: 40px; padding-right: 40px; font-size: 14px; color: #cbd5e0; line-height: 1.8; text-align: justify;">
+    Graphic Design Course In Noida | Graphic Design Course In Delhi | Graphic Design Course In Laxmi Nagar |
+    UI UX Design Course In Noida | Web Design Course In Noida | Digital Marketing Course In Noida |
+    Web Development Course In Noida | Hire Graphic Designers | Hire UI Designers | Hire Web Developers |
+    Hire For Digital Marketing | Hire UI UX Designer | Hire Mern Stack Developer | Hire Freshers | Hire Experienced Candidate | Refund Policy
+  </div> -->
+</div>
+
     <!-- Footer End -->
 
     <!-- Back to Top -->
